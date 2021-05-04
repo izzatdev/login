@@ -1,0 +1,141 @@
+body{
+    background-image: url("../images/wrap.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 99%;
+}
+.wrap{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    padding: 1.5rem;
+    margin: 10rem auto;
+    transition: 0.2s ease-in 0.1s;
+    position: relative;
+
+}
+h1{
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: darkorange;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+.login{
+    width: 300px;
+    height: 50px;
+    border:  1px  solid #151212;
+    background-color: transparent;
+    margin: 1rem 3rem ;
+    text-align: center;
+    color: red;
+    border-radius:50px ;
+    transition: 0.5s linear 0.01s all;
+}
+.password{
+    width: 300px;
+    height: 50px;
+    border:1px solid #151212;
+    background-color: transparent;
+    color: red;
+    margin:1rem 3rem ;
+    text-align: center;
+    border-radius:50px ;
+    transition: 0.5s linear 0.01s all;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    margin: 1rem 6rem;
+    background-color: transparent;
+    border: 1px solid #151212;
+    color: red;
+    transition: 0.5s linear 0.01s all;
+    border-radius:50px ;
+}
+.btn:hover{
+    border-color: lawngreen;
+    background-color: #638641;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 6px;
+    box-shadow:0px 0px 10px 10px  rgba(100,10,10,10);
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    border: #242222;
+    border-radius: 50%;
+    position: absolute;
+    background:gray;
+    top:  -43px;
+    left:180px;
+}
+.icon:hover{
+    animation: icon 3s 0.3s linear ;
+    cursor: progress;
+    box-shadow:0px 0px 10px 10px  rgba(100,10,10,10);
+}
+.icon img{
+    width: 100%;
+}
+.btn:active{
+    cursor: progress;
+}
+.login:hover{
+    border-color: #1b1bae;
+    background-color: #1b1bae;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #ffffff;
+    box-shadow:0px 0px 10px 10px  rgba(100,10,10,10);
+
+}
+.password:hover{
+    border-color: #1b1bae;
+    background-color: #1b1bae;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #ffffff;
+    box-shadow:0px 0px 10px 10px  rgba(100,10,10,10);
+
+}
+.wrap:hover{
+    box-shadow:0px 0px 20px 10px  rgba(100,10,10,10);
+    animation: translate 1s linear 0.2s;
+}
+p{
+    font-family: sans-serif;
+    color: blue;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+.cash{
+    width: 250px;
+    height: 55px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+@keyframes icon{
+    from{
+        transform: rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+@keyframes translate {
+
+    from{
+        transform: translate(0,0) ;
+    }
+    to{
+        transform: translate(-10px,-10px) ;
+    }
+}
